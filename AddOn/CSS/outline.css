@@ -1,0 +1,68 @@
+@font-face {
+    src: url("../Font/PrStart.ttf");
+}
+
+
+.label {
+	-fx-font-family: 'Press Start';
+}
+
+#titolo {
+    -fx-font-size: 50px;
+    -fx-font-family: 'Press Start';
+
+}
+
+
+.button{
+	-fx-font-size: 25px;
+    -fx-font-family: "Press Start";
+    -fx-background-color: yellow;
+
+}
+
+.button .text:hover{
+	-fx-cursor: pointer;
+}
+
+.button .text{
+	-fx-fill: blue;
+}
+
+.outline.label .text {
+    -fx-fill: yellow;
+    -fx-stroke: blue;
+    -fx-stroke-width: 2px;
+}
+
+.combo-box{
+	-fx-font-size: 15px;
+    -fx-font-family: "Press Start";
+	-fx-background-color: yellow; 
+	-fx-padding: 10px 10px;
+
+ }
+
+ .combo-box .text{
+ 	-fx-fill: blue;
+ 	-fx-text-align: center;
+ }
+
+/*Edit Normal Cell color */
+ .combo-box .list-cell{
+ 	-fx-background-color: yellow; 
+}
+
+
+
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-background-color:  blue; 
+}
+.table-view .column-header .label{
+   -fx-font-size: 7px;
+   -fx-text-fill: white;
+   -fx-font-weight: bold; 
+   -fx-alignment: CENTER_LEFT;
+}  
+
