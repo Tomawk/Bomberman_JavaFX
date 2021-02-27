@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- config.xml -->
+<FileConfigurazioneXML numeroRighe="15" ipClient="127.0.0.1" ipServerLog="127.0.0.1" portaServerLog="6789">
+  
+  <usernameDbms>root</usernameDbms>
+  <passwordDbms></passwordDbms>
+  <portaDbms>3306</portaDbms>
+  <dimensioneFont>17</dimensioneFont>  
+  <dimensioniGriglia> 
+    <int>11</int>
+    <int>13</int>
+  </dimensioniGriglia>
+  <coloreSfondo>black</coloreSfondo>
+</FileConfigurazioneXML>
